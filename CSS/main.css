@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-font-color-light: rgba(0, 0, 0, 0.751) !important;
+  --main-Background-color-light: rgba(255, 255, 255, 0.827) !important;
+  --main-font-color-dark: rgba(255, 255, 255, 0.815) !important;
+  --main-background-color-dark: rgba(0, 0, 0, 0.748) !important;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+body.activeDarkMode {
+  color: var(--main-font-color-dark) !important;
+  background-color: var(--main-background-color-dark) !important;
+}
+
+h1 {
+  max-width: 400px;
+  text-align: center;
+  margin: 20px auto;
+  padding: 20px;
+  /* color: var(--main-font-color-light); */
+}
+
+#darkMode {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 30px;
+}
+
+/* Media Query */
+
+/* for Large Screen devices: */
+
+@media (max-width: 1199.98px) {
+}
+/* for Large Screen devices: */
+
+@media (max-width: 991.98px) {
+}
+/* for Tablet devices: */
+
+@media (max-width: 767.98px) {
+}
+/* for smartphone devices: */
+@media (max-width: 575.98px) {
+}
